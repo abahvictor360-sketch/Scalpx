@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /dashboard.html
-Sitemap: https://scalpx.vercel.app/sitemap.xml
+Sitemap: https://scalpx-orcin.vercel.app/sitemap.xml

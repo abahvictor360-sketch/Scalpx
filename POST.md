@@ -8,7 +8,7 @@
 
 Built for clinics, trichologists, salons and haircare brands serving **afro, curly and textured hair**, where scalp care matters most.
 
-🔗 Live demo: https://YOUR-VERCEL-URL.vercel.app
+🔗 Live demo: https://scalpx-orcin.vercel.app
 
 I design & build high-converting websites for **beauty, wellness, clinic and haircare brands**. 📩 Want one for your business? DM me or comment "SCALP" and let's talk.
 
@@ -20,7 +20,7 @@ I design & build high-converting websites for **beauty, wellness, clinic and hai
 
 Built **Scalpx** 🧴, a scalp & hair clinic site with liquid-glass UI, motion, login + booking flow.
 Need a site for your clinic, salon or haircare brand? DMs open 📩
-🔗 YOUR-VERCEL-URL.vercel.app
+🔗 scalpx-orcin.vercel.app
 #WebDesign #UIUX #ScalpCare #HairGrowth #NaturalHair #FreelanceDeveloper #HireMe
 
 ## Instagram / TikTok caption (attach videos/scalpx-mobile.mp4)

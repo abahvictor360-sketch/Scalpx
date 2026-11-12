@@ -2,7 +2,7 @@
 """Generates the Scalpx static site into ./public. Run: python3 build.py"""
 import json, os
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
-SITE = "https://scalpx.vercel.app"
+SITE = "https://scalpx-orcin.vercel.app"
 
 KEYWORDS = ("scalp treatment, scalp care, hair growth, hair loss treatment, afro hair care, natural hair care, "
             "textured hair scalp clinic, scalp analysis, scalp detox, dandruff treatment, hair thinning, "
