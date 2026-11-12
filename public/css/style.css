@@ -68,7 +68,7 @@ h1,h2,h3{letter-spacing:-.035em;line-height:1.02;font-weight:600}
 .hero p.lead{font-size:15px;color:#4a4946;max-width:340px;margin-bottom:26px}
 .hero-figure{position:absolute;left:50%;bottom:calc(var(--wordh,18vw)*.5);width:min(31vw,440px);transform:translateX(-4%);z-index:3;aspect-ratio:640/849;pointer-events:none}
 .hero-figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:bottom}
-.hero-figure .main{-webkit-mask-image:linear-gradient(#000 78%,transparent 99%);mask-image:linear-gradient(#000 78%,transparent 99%);animation:float 9s ease-in-out infinite}
+.hero-figure .main{animation:float 9s ease-in-out infinite}
 .hero-figure .trail{filter:blur(14px) saturate(1.4) sepia(.5);opacity:.32;transform-origin:30% 50%;-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000 55%,transparent 100%);mask-image:linear-gradient(90deg,transparent 30%,#000 55%,transparent 100%)}
 .hero-figure .t1{animation:trail 4.5s ease-in-out infinite}.hero-figure .t2{animation:trail 4.5s ease-in-out -2.2s infinite;opacity:.32;filter:blur(26px) saturate(1.8) sepia(.8)}
 @keyframes trail{0%,100%{transform:translateX(5%) scaleX(1.05)}50%{transform:translateX(17%) scaleX(1.25)}}

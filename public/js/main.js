@@ -73,14 +73,14 @@ if(af){
  const set=m=>{mode=m;tabs.classList.toggle('reg',m==='reg');$$('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.m===m));$$('[data-only]').forEach(el=>el.style.display=el.dataset.only===m?'':'none');$('#atitle').textContent=m==='reg'?'Create your account':'Welcome back';$('#asub').textContent=m==='reg'?'Start your personalised scalp journey with Scalpx.':'Sign in to manage consultations and your scalp plan.';$('#submit span').textContent=m==='reg'?'Create account':'Sign in';$('#amsg').className='formmsg'};
  $$('.tabs button').forEach(b=>b.addEventListener('click',()=>set(b.dataset.m)));set(mode);
  $$('.pw button').forEach(b=>b.addEventListener('click',()=>{const i=$('input',b.parentElement);i.type=i.type==='password'?'text':'password';b.textContent=i.type==='password'?'Show':'Hide'}));
- $('#forgot').addEventListener('click',e=>{e.preventDefault();toast('Password reset needs a backend — demo mode only')});
+ $('#forgot').addEventListener('click',e=>{e.preventDefault();toast('Password reset needs a backend, demo mode only')});
  af.addEventListener('submit',async e=>{e.preventDefault();const g=n=>af.elements[n],msg=$('#amsg');let ok=true;$$('.field',af).forEach(clear);
   if(mode==='reg'&&g('name').value.trim().length<2)ok=bad(g('name').closest('.field'),'Please enter your name.');
   if(!emailOk(g('email').value))ok=bad(g('email').closest('.field'),'Enter a valid email address.');
   if(g('password').value.length<8)ok=bad(g('password').closest('.field'),'Use at least 8 characters.');
   if(!ok)return;
   try{if(mode==='reg')await Auth.register(g('name').value.trim(),g('email').value,g('password').value);else await Auth.login(g('email').value,g('password').value);
-   msg.className='formmsg ok show';msg.textContent=mode==='reg'?'Account created — taking you to your dashboard…':'Signed in — loading your dashboard…';setTimeout(()=>location.href='dashboard.html',800)}
+   msg.className='formmsg ok show';msg.textContent=mode==='reg'?'Account created, taking you to your dashboard…':'Signed in, loading your dashboard…';setTimeout(()=>location.href='dashboard.html',800)}
   catch(err){msg.className='formmsg bad show';msg.textContent=err.message}})
 }
 const dash=$('#dash');
@@ -99,6 +99,6 @@ if(bf){const dt=bf.elements.date;const d=new Date();d.setDate(d.getDate()+1);dt.
   if(!g('date').value)ok=bad(g('date').closest('.field'),'Choose a preferred date.');
   if(!ok)return;
   const b=store.get('scalpx_bookings',[]);b.push({name:g('name').value,email:g('email').value,concern:g('concern').value,date:g('date').value,time:g('time').value});store.set('scalpx_bookings',b);
-  $('#bookwrap').style.display='none';$('#booked').style.display='block';$('#bookedmsg').textContent=`Thanks ${g('name').value.split(' ')[0]} — we’ve noted ${g('concern').value.toLowerCase()} on ${g('date').value} (${g('time').value}). (Demo: stored in this browser only.)`;scrollTo({top:0,behavior:'smooth'})})}
-const nf=$('#newsform');if(nf)nf.addEventListener('submit',e=>{e.preventDefault();if(!emailOk(nf.elements.email.value))return toast('Enter a valid email');nf.reset();toast('You’re on the list — welcome to Scalpx')});
+  $('#bookwrap').style.display='none';$('#booked').style.display='block';$('#bookedmsg').textContent=`Thanks ${g('name').value.split(' ')[0]}, we’ve noted ${g('concern').value.toLowerCase()} on ${g('date').value} (${g('time').value}). (Demo: stored in this browser only.)`;scrollTo({top:0,behavior:'smooth'})})}
+const nf=$('#newsform');if(nf)nf.addEventListener('submit',e=>{e.preventDefault();if(!emailOk(nf.elements.email.value))return toast('Enter a valid email');nf.reset();toast('You’re on the list, welcome to Scalpx')});
 })();

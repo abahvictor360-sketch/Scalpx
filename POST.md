@@ -1,12 +1,12 @@
-# Launch post — copy & paste
+# Launch post: copy & paste
 
 ## LinkedIn / Facebook / Threads
 
-🚀 Just launched **Scalpx** — a modern scalp & hair clinic website concept built for the brands that know *healthier hair starts at the scalp*.
+🚀 Just launched **Scalpx**, a modern scalp & hair clinic website concept built for the brands that know *healthier hair starts at the scalp*.
 
 ✨ Liquid-glass UI, scroll-driven motion, a huge kinetic wordmark hero, responsive from phone to desktop, plus a full login / account / dashboard flow and consultation booking.
 
-Built for clinics, trichologists, salons and haircare brands serving **afro, curly and textured hair** — where scalp care matters most.
+Built for clinics, trichologists, salons and haircare brands serving **afro, curly and textured hair**, where scalp care matters most.
 
 🔗 Live demo: https://YOUR-VERCEL-URL.vercel.app
 
@@ -18,14 +18,14 @@ I design & build high-converting websites for **beauty, wellness, clinic and hai
 
 ## X / Twitter (short)
 
-Built **Scalpx** 🧴 — a scalp & hair clinic site with liquid-glass UI, motion, login + booking flow.
+Built **Scalpx** 🧴, a scalp & hair clinic site with liquid-glass UI, motion, login + booking flow.
 Need a site for your clinic, salon or haircare brand? DMs open 📩
 🔗 YOUR-VERCEL-URL.vercel.app
 #WebDesign #UIUX #ScalpCare #HairGrowth #NaturalHair #FreelanceDeveloper #HireMe
 
 ## Instagram / TikTok caption (attach videos/scalpx-mobile.mp4)
 
-Healthier hair starts at the scalp 🌿✨ Scalpx — website concept for scalp & hair clinics.
+Healthier hair starts at the scalp 🌿✨ Scalpx, website concept for scalp & hair clinics.
 Liquid glass • smooth motion • login • booking.
 Want a site like this for your brand? DM "SCALP" 📩 (link in bio)
 
